@@ -10,8 +10,10 @@ I like to use waffle board because it syncs up with github nicely. It also nice 
 The staging environment is an added layer between development and production. It allows us a chance to go over our work before commit it. 
 3. What are the characteristics of a good README (in your opinion)?
 In my opinion a good readme should have detailed instructions on how to setup your projects. Additionally a good readme will detail exactly what was used to build the project. 
-4. What's one main improvement you're going to make to your code regarding accessibility issues?
+4. What's one main improvement you're going to make to your code regarding accessibility issues? 
+I will make sure that at the very least a user is able to TAB through elements on the page.
 5. What are some basic security concerns to be aware of when building applications?
+One basic security concern is clickjacking and you could prevent this by including specific headers in your http requests. 
 6. Why is continuous integration helpful/important?
 Continuous integration is helpful because it allows you to create a virtual machine that will run your code based from scratch. It is another way of testing the entirety of your code on a machine that is not your local host. 
 7. What are some continuous integration tools?
